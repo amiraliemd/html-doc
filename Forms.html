@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body dir="rtl">
+<fieldset >
+    <legend>فرم ثبت نام</legend>
+    <form action="">
+        <table width="450" border="1" align="center">
+            <tr>
+                <td width="150" align="center">
+                    نام کاربری:
+                </td>
+                <td>
+                    <input type="text" maxlength="10" size="15" placeholder="نام کابری خود را وارد کنید">
+                </td>
+            </tr>
+            <tr>
+                <td width="150" align="center">
+                    رمز عبور :
+                </td>
+                <td>
+                    <input type="password"  size="15" placeholder="رمز عبور خود را وارد کنید">
+                </td>
+            </tr>
+            <tr>
+                <td width="150" align="center">
+                    ایمیل:
+                </td>
+                <td>
+                    <input type="email"  size="15" placeholder="ایمیل خود را وارد کنید">
+                </td>
+            </tr>
+            <tr>
+                <td width="150" align="center" valign="top">
+                        آدرس :
+                </td>
+                <td>
+                    <textarea name="" id="" rows="10" cols="20"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td width="150" align="center">
+                   جنسیت
+                </td>
+                <td>
+                    <input type="radio" name="Gender">مرد
+                    <input type="radio" name="Gender">زن 
+                </td>
+            </tr>
+            <tr>
+                <td width="150" align="center">
+                    شهر
+                </td>
+                <td>
+                    <select name="" id="">
+                        <option value="">رشت</option>
+                        <option value="" selected>تهران</option>
+                        <option value="">قزوین</option>
+                        
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td width="150" align="center">
+                    استان
+                </td>
+                <td>
+                    <select name="" id="">
+                        <optgroup label="1استان">
+                            <option value="">شهر 1 از استان 1</option>
+                            <option value="">شهر 2 از استان 1</option>
+                            <option value="">شهر 3 از استان 1</option>
+                            <option value="">شهر 4 از استان 1</option>
+                        </optgroup>
+                        <optgroup label="استان2">
+                            <option value="">شهر 1 از استان 2</option>
+                            <option value="">شهر 2 از استان 2</option>
+                            <option value="">شهر 3 از استان 2</option>
+                            <option value="">شهر 4 از استان 2</option>
+                        </optgroup>
+                    </select>
+         
+                </td>
+            </tr>
+            <tr>
+                <td width='150' align="center" valign='top'>علاقه مندی ها </td>
+                <td> 
+                    <input type="checkbox"  checked > موزیک
+                    <input type="checkbox" > سفر
+                    <input type="checkbox" > ورزش
+                </td>
+            </tr>
+            <tr>
+                <td width='150' align="center" valign='top'>فایل </td>
+                <td> 
+                    <input type="file">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="ثبت نام" >
+                    <input type="submit" value="پاک کردن فرم " >
+                </td>
+            </tr>
+            <input type="hidden">
+        </table> 
+    </form>
+</fieldset>
+</body>
+</html>

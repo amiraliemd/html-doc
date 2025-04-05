@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        table{
+            border:  1px solid black;
+
+
+        }
+        td{
+            border: 1px solid blue;
+            padding: 4px ;
+            text-align: center;
+            font-style: italic;
+        }
+        th{
+            border: black 1 px;
+            
+
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th colspan="2">
+                Row 1
+            </th>
+            <!-- tag th be mani Table header hastesh ke baraye moshakhas kardan Sar list Jadval be kar mire -->
+            <th>
+                Row 2
+            </th>
+        </tr>
+        <tr>
+            <td colspan="2" >
+                Row1-1<!-- tag td ke mokhfaf Table data hast baraye vorodi dadan etelaat hastesh -->
+            </td>
+            <td rowspan="2">
+                Row1-2
+            </td>
+        </tr>
+        <tr>
+            <td  rowspan="2">
+                Row2-1
+            </td>
+            <td>
+                Row2-2
+            </td>
+        </tr>
+        <tr>
+            <td  >
+                Row3-1
+            </td>
+            <td >
+                Row3-2
+            </td>
+        </tr>
+        <!-- tag tr ke mokhafaf tr hastesh be mani Table row  hastesh baraye sakht sotoon haye jadval be kar mire -->
+    </table>
+    <!-- tag table ke be mani jadval hastesh baraye sakht table be kar mire -->
+     <!-- har tag table daraye rowspan ke baraye radif(be sorat ofoghi)va colspan baraye soton(be sorat amoodi) ke atterbute an ha hastesh lahaz mishe  -->
+</body>
+</html>
